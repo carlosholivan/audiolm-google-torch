@@ -16,9 +16,9 @@ The convolutional encoder/decoder takes a single channel waveform $x \in R^T$ an
 
 - Input: waveform at 16kHz.
 - Encoder Embeddings: 50Hz (x320 reduction).
-- Codebook symbols: $ Y \in \{ 1, . . . , N \}^{
-T_A \times Q} $ where $ T_A = T/320 $
-- Encoded audio: $ enc(x) = R^{S \times D} $.
+- Codebook symbols: $Y \in \{ 1, . . . , N \}^{
+T_A \times Q}$ where $T_A = T/320$
+- Encoded audio: $enc(x) = R^{S \times D}$.
 - One-hot encoded vectors shape: $S \times D$
 - Decoder Embeddings.
 - Reconstructed waveform.
